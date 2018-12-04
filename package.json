@@ -1,5 +1,5 @@
 {
-  "name": "lyndafullstackjs",
+  "name": "colors",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -20,6 +20,7 @@
     "json-loader": "^0.5.7",
     "mongodb": "^3.0.2",
     "node-sass-middleware": "^0.11.0",
+    "nodemon": "^1.18.7",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
