@@ -1,0 +1,118 @@
+html {
+  height: 100%;
+  overflow-y: hidden; }
+
+body {
+  color: #424848;
+  font-family: 'Source Serif Pro', serif; }
+
+.navbar {
+  background-color: #363C3C; }
+
+#searchBar {
+  width: 20%; }
+
+.App {
+  height: 100%; }
+
+#root {
+  height: 100%; }
+
+.container {
+  padding: 0px;
+  max-width: 100%;
+  height: 100%; }
+
+.row {
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px; }
+
+.colorRow {
+  margin-top: 3%; }
+
+.ColorPreview {
+  box-shadow: 2px 2px 2px 1px #D6D8D8;
+  height: 125px;
+  width: 120px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+  .ColorPreview .category-name {
+    border-bottom: 1px solid grey;
+    padding: 0.25em 0.5em;
+    font-weight: bold;
+    background-color: grey;
+    color: navy; }
+  .ColorPreview .color-name {
+    padding: 0.5em;
+    height: 100px;
+    width: 120px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+  .ColorPreview .colorLabel {
+    padding-left: 5px; }
+
+.link {
+  cursor: pointer; }
+
+.mainContainer {
+  height: 100%; }
+
+.appRow {
+  height: 100%; }
+
+.colorMenu {
+  background-color: #D6D8D8;
+  padding: 0px;
+  text-align: left; }
+
+.colorList {
+  padding-left: 0px; }
+
+.menuList {
+  list-style-type: none;
+  padding: 0px;
+  width: 75%;
+  margin: 0 auto;
+  margin-left: 10%; }
+
+.randomButton {
+  font-size: 1rem;
+  width: 100%;
+  color: #424848;
+  margin-top: 20%;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-bottom: 14%; }
+
+.randomButton:focus {
+  outline: none; }
+
+.randomButton:hover {
+  cursor: pointer; }
+
+.menuItem {
+  padding-bottom: 10px; }
+
+.pageList {
+  list-style-type: none;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 8%;
+  padding: 0px; }
+  .pageList li {
+    display: inline;
+    padding-right: 10px; }
+
+@media (min-width: 1100px) {
+  .ColorPreview {
+    height: 125px;
+    width: 150px; }
+  .ColorPreview .color-name {
+    padding: 0.5em;
+    height: 100px;
+    width: 150px; }
+  .colorLabel {
+    padding-left: 5px; } }
