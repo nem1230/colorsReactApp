@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
+    "babel": "^6.23.0",
     "body-parser": "^1.18.3",
     "dotenv": "^6.1.0",
     "ejs": "^2.5.7",
